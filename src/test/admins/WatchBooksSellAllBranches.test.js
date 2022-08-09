@@ -8,6 +8,8 @@ describe('Watch amount of books sold in a branch', () => {
         console.log('-       CANTIDAD DE LIBROS VENDIDOS EN TODAS LAS SUCURSALES        -');
         console.log('--------------------------------------------------------------------');
 
-        console.log(branchOffice)
+        branchOffice.map(branch => {
+            console.log(branch)
+        })
     })
 })
