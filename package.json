@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "mocha './src/test/admins/SearchSales.test.js'"
+    "test": "mocha './src/test/admins/SearchBookByTitleAuthorCategory.test.js'"
   },
   "keywords": [],
   "author": "",

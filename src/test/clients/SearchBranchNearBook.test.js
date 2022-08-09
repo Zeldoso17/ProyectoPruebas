@@ -57,7 +57,7 @@ describe('Find a branch near where is available a book', () => {
         }]
 
         geoloc = await Branches.aggregate(query)
-        res = await Branches.find({ $and: [{ books: { $all: ['El alfabeto alado'] } }, { city: 'CDMX' }] })
+        res = await Branches.find({ $and: [{ books: { $all: ['El alfabeto alado'] } }, { city: 'CDMX' }]})
         console.log('Books -> ', res)
     })
     it("it must to return an error if the book isn't in anything branch", async () => {
